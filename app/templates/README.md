@@ -1,6 +1,6 @@
 # <%= moduleName %>
 
-> My <%= superb %> module
+> My cool module
 
 [![Build Status](https://img.shields.io/travis/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>)
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
