@@ -16,10 +16,6 @@
   "scripts": {
     "test": "semistandard --verbose | snazzy && NODE_ENV=test ava"
   },
-  "files": [
-    "index.js"<% if (cli) { %>,
-    "cli.js"<% } %>
-  ],
   "keywords": [<% if (cli) { %>
     "cli-app",
     "cli",<% } %>

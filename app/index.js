@@ -57,7 +57,8 @@ module.exports = yeoman.generators.Base.extend({
 				self.fs.copyTpl(self.templatePath('cli.js'), self.destinationPath(`bin/${tpl.moduleName}`), tpl);
 			}
 
-			mv('editorconfig', '.editorconfig');
+      mv('editorconfig', '.editorconfig');
+			mv('npmignore', '.npmignore');
 			mv('gitattributes', '.gitattributes');
 			mv('gitignore', '.gitignore');
 			mv('travis.yml', '.travis.yml');

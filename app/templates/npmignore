@@ -1,0 +1,6 @@
+.git*
+.npmignore
+.editorconfig
+.travis.yml
+test.js
+test/**
