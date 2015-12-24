@@ -11,7 +11,7 @@ var cli = meow([
   'Options',
   '  --foo  Lorem ipsum. [Default: false]',
   '',
-  'Examples',
+  'Example',
   '  $ <%= moduleName %>',
   '  I am cool',
 ]);
