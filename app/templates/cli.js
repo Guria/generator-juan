@@ -13,7 +13,7 @@ var cli = meow([
   '',
   'Example',
   '  $ <%= moduleName %>',
-  '  I am cool',
+  '  I am cool'
 ]);
 
 console.log(<%= camelModuleName %>(cli.input[0] || 'Hello'));
