@@ -26,6 +26,7 @@
   <% } %>},
   "devDependencies": {
     "ava": "*",
+    <% if (cli) { %>"execa": "*", <% } %>
     "semistandard": "^7.0.4",
     "snazzy": "^2.0.1"
   },
