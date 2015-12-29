@@ -28,6 +28,7 @@
     "ava": "*",
     "cz-conventional-changelog": "*",
     <% if (cli) { %>"execa": "*", <% } %>
+    "ghooks": "*",
     "semistandard": "^7.0.4",
     "snazzy": "^2.0.1"
   },
@@ -39,6 +40,9 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-commit": "npm run test"
     }
   }
 }
