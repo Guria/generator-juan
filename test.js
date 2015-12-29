@@ -29,9 +29,9 @@ test.serial('generates expected files', async () => {
 		'.npmignore',
 		'.travis.yml',
 		'index.js',
-		'LICENSE',
+		'license',
 		'package.json',
-		'README.md',
+		'readme.md',
 		'test.js'
 	]);
 
