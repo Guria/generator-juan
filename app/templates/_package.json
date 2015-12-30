@@ -29,8 +29,8 @@
     "cz-conventional-changelog": "*",
     <% if (cli) { %>"execa": "*", <% } %>
     "ghooks": "*",
-    "semistandard": "^7.0.4",
-    "snazzy": "^2.0.1"
+    "semistandard": "*",
+    "snazzy": "*"
   },
   "semistandard": {
     "ignore": [
