@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "description": "My cool module",
   "license": "MIT",
-  "repository": "<%= githubUsername %>/<%= moduleName %>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sotojuan/<%= moduleName %>"
+  },
   "author": {
     "name": "<%= name %>",
     "email": "<%= email %>",
@@ -16,6 +19,10 @@
   "scripts": {
     "test": "semistandard --verbose | snazzy && NODE_ENV=test ava"
   },
+  "files": [
+    "index.js"<% if (cli) { %>,
+    "bin/<%= moduleName %>"<% } %>
+  ],
   "keywords": [<% if (cli) { %>
     "cli-app",
     "cli",<% } %>
