@@ -34,7 +34,7 @@ test.serial('generates expected files', async () => {
 		'test.js'
 	]);
 
-	assert.noFile('cli.js');
+	assert.noFile('bin/test');
 });
 
 test.serial('CLI option', async () => {
