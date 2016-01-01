@@ -34,7 +34,7 @@ test.serial('generates expected files', async () => {
 		'test.js'
 	]);
 
-	assert.noFile('bin/test');
+	assert.noFile('cli.js');
 });
 
 test.serial('CLI option', async () => {
@@ -47,7 +47,7 @@ test.serial('CLI option', async () => {
 
 	await pify(generator.run.bind(generator))();
 
-	assert.file('bin/test');
+	assert.file('cli.js');
 	assert.fileContent('package.json', /"bin":/);
 	assert.fileContent('package.json', /"bin": "bin\/test"/);
 	assert.fileContent('package.json', /"meow"/);

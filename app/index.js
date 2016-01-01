@@ -54,7 +54,7 @@ module.exports = yeoman.generators.Base.extend({
 			], self.destinationPath(), tpl);
 
 			if (props.cli) {
-				self.fs.copyTpl(self.templatePath('cli.js'), self.destinationPath(`bin/${tpl.moduleName}`), tpl);
+				self.fs.copyTpl(self.templatePath('cli.js'), self.destinationPath(`cli.js`), tpl);
 			}
 
       mv('editorconfig', '.editorconfig');
