@@ -49,6 +49,6 @@ test.serial('CLI option', async () => {
 
 	assert.file('cli.js');
 	assert.fileContent('package.json', /"bin":/);
-	assert.fileContent('package.json', /"bin": "bin\/test"/);
+	assert.fileContent('package.json', /"bin": "cli.js"/);
 	assert.fileContent('package.json', /"meow"/);
 });
