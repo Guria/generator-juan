@@ -12,7 +12,7 @@
     "email": "<%= email %>",
     "url": "<%= humanizedWebsite %>"
   },<% if (cli) { %>
-  "bin": "bin/<%= moduleName %>",<% } %>
+  "bin": "cli.js",<% } %>
   "engines": {
     "node": ">=4.2.0"
   },
@@ -21,7 +21,7 @@
   },
   "files": [
     "index.js"<% if (cli) { %>,
-    "bin/<%= moduleName %>"<% } %>
+    "cli.js"<% } %>
   ],
   "keywords": [<% if (cli) { %>
     "cli-app",
