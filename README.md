@@ -29,7 +29,6 @@ $ yo juan
 * [snazzy](https://github.com/feross/snazzy) for nicer linting output
 * [meow](https://github.com/sindresorhus/meow) for CLI options
 * [commitizen](https://commitizen.github.io/cz-cli/) for better commits
-* [ghooks](https://github.com/gtramontina/ghooks) for running tests before committing
 
 
 ## License
