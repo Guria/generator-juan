@@ -1,11 +1,11 @@
-'use strict';
+'use strict'
 
-module.exports = function (str, opts) {
+module.exports = (str, opts) => {
   if (typeof str !== 'string') {
-    throw new TypeError('Expected a string');
+    throw new TypeError('Expected a string')
   }
 
-  opts = opts || {};
+  opts = opts || {}
 
-  return 'I am cool';
-};
+  return 'I am cool'
+}

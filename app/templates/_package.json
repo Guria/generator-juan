@@ -17,7 +17,7 @@
     "node": ">=4.2.0"
   },
   "scripts": {
-    "test": "semistandard --verbose | snazzy && NODE_ENV=test ava"
+    "test": "standard --verbose | snazzy && ava --verbose"
   },
   "files": [
     "index.js"<% if (cli) { %>,
@@ -35,13 +35,8 @@
     "ava": "*",
     "cz-conventional-changelog": "*",<% if (cli) { %>
     "execa": "*", <% } %>
-    "semistandard": "*",
+    "standard": "~5",
     "snazzy": "*"
-  },
-  "semistandard": {
-    "ignore": [
-      "test.js"
-    ]
   },
   "config": {
     "commitizen": {

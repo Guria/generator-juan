@@ -13,9 +13,9 @@ $ npm install --save <%= moduleName %>
 ## Usage
 
 ```js
-var <%= camelModuleName %> = require('<%= moduleName %>');
+let <%= camelModuleName %> = require('<%= moduleName %>')
 
-<%= camelModuleName %>('Hello');
+<%= camelModuleName %>('Hello')
 //=> 'I am cool'
 ```
 
