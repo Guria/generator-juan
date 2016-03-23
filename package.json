@@ -1,6 +1,6 @@
 {
   "name": "generator-juan",
-  "version": "4.0.2",
+  "version": "5.0.0",
   "description": "Scaffold out a Node module in Juan's style",
   "license": "MIT",
   "repository": "sotojuan/generator-juan",
